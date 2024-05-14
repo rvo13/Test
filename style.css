@@ -1,0 +1,193 @@
+@media screen and (max-width:767px) {
+  
+  body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: #282828;
+}
+
+  h3 {
+    color: #ffcf01;
+  }
+  
+  h2 {
+    color: #f2f2f2;
+  }
+  
+  .manrope-<uniquifier> {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+  
+  #name1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    margin-left: 8px;
+    
+  }
+  
+  #btnats {
+    font-size: 24px;
+    color: #ffcf01;
+    margin-top: 14px;
+  }
+  
+  header {
+    display: flex;
+    gap: 190px;
+  }
+  
+  @keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+.animate-right1 {
+  animation: slideRight 1s ease forwards;
+  
+}
+
+.animate-right2 {
+  animation: slideRight 2s ease forwards;
+  margin-top: -25px;
+  font-family: "Manrope", sans-serif;
+}
+
+ .text-container{
+   color: #ffcf01;
+   font-size: 18px;
+   margin-top: 150px;
+   margin-left: 20px;
+ }
+ 
+ #image {
+   text-align: right;
+     overflow: hidden; /* Mengatasi overflow */
+  margin-top: 80px;
+   
+ }
+ 
+ .pp {
+   width: 280px;
+   
+   text-align: right;
+   animation: slideLeft 1s ease forwards;
+ }
+ 
+ .container-isi {
+   
+   margin-left: 8px;
+   margin-top: 150px;
+   
+ }
+  
+ .about {
+   font-family: "Manrope", sans-serif;
+   font-size: 15px;
+   text-align: left;
+   width: 350px;
+ }
+ 
+ .abt {
+   color: #f2f2f2;
+   font-family: "Manrope", sans-serif;
+ }
+ 
+ .svc {
+   color: #f2f2f2;
+   font-family: "Manrope", sans-serif;
+ }
+ 
+ #container-service {
+   margin-top: 120px;
+   margin-left: 8px;
+   padding-bottom: 50px;
+  
+ }
+ 
+ #logo-svc {
+   color: #ffcf01;
+   font-size: 26px;
+ }
+ 
+ .text-svc {
+   font-family: "Manrope", sans-serif;
+   font-size: 18px;
+   
+ }
+ 
+ .deskrip-svc {
+   color: #ffcf01;
+   width: 180px;
+   font-size: 8px;
+   margin-top: -12px;
+ }
+ 
+ #container-service-card {
+   background-color: #141414;
+   margin: auto;
+   display: inline-block;
+   padding-top: 10px;
+   padding-left: 10px;
+   border-radius: 8px;
+ }
+  #container-service-card2 {
+   background-color: #141414;
+   margin: auto;
+   display: inline-block;
+   padding-top: 10px;
+   padding-left: 10px;
+   margin-right: 10px;
+   border-radius: 8px;
+   margin-top: 30px;
+   float: right;
+   
+ }
+ #container-service-card3 {
+   background-color: #141414;
+   margin: auto;
+   display: inline-block;
+   padding-top: 10px;
+   padding-left: 10px;
+   border-radius: 8px;
+   margin-top: 30px;
+ }
+ 
+ #container-service-card:hover {
+   border: 1.5px solid #ffcf01;
+ }
+ 
+  #container-service-card2:hover {
+   border: 1.5px solid #ffcf01;
+ }
+ 
+  #container-service-card3:hover {
+   border: 1.5px solid #ffcf01;
+ }
+ 
+ 
+ 
+}
